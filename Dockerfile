@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install --no-cache-dir python-telegram-bot openai
 
-CMD ["python", "bot.py"]
+CMD ["python", "main.py"]
